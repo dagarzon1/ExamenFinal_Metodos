@@ -4,7 +4,11 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
-
-
+i=0
+j=i
+while(i<800 and j<100):
+    if(x[j]%2!=0):
+        i=x[j]
+        print(x[j])
+    j=j+1
 
